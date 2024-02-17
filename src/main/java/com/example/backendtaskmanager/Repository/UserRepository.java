@@ -1,0 +1,1 @@
+package com.example.backendtaskmanager.Repository;import com.example.backendtaskmanager.Entity.User;import org.springframework.data.jpa.repository.JpaRepository;public interface UserRepository extends JpaRepository<User, Long>{}
