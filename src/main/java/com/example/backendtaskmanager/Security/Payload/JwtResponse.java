@@ -1,1 +1,14 @@
-package com.example.backendtaskmanager.Security.Payload;import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;@Data@Builder@AllArgsConstructor@NoArgsConstructorpublic class JwtResponse {    private String token;}
+package com.example.backendtaskmanager.Security.Payload;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class JwtResponse {
+    private String token;
+}
